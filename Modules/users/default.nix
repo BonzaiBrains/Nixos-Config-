@@ -1,8 +1,7 @@
 { config, ... }:
 {
   imports = [
-    adrian
-    jasmina
-    guest
+    ./adrian
+    ./guest
   ];
 }
